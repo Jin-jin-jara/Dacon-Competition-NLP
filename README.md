@@ -1,6 +1,6 @@
 # Dacon-Competition-NLP
 
-Overview
+## Overview
 
 올해 1월부터 7월까지 스미싱 범죄 건수는 17만6220건으로 지난해 같은 기간(14만5093건)에 비해 21.5% 증가했습니다.
 
@@ -10,11 +10,11 @@ Overview
 - 주최 : KB금융지주, DACON , KISA(한국인터넷진흥원)
 - 주관 : DACON
 
-Problem Statement
+## Problem Statement
 
 데이콘 금융문자 분석 경진대회에서 풀어야하는 문제는 약 26만건의 문자 데이터를 분석하여 고객들이 받은 문자가 스미싱(금융사기)문자인지 은행에서 온 정상적인 문자인지를 구별하는 것입니다. 한 가지 흥미로웠던 점은 데이콘측에서 요구한건 문자가 스미싱 문자인지 정상 문자인지 구분하는 단순한 분류(classification) 문제가 아니라 하나하나의 문자가 스미싱 문자인지 아닌지 예측값의 확률을 구해 제출할 것을 요구했다는 점입니다. 
 
-Brief introduction to the datad
+## Brief introduction to the datad
 
 id - 각 문자가 가지고 있는 고유 구분 번호입니다.(train Data와 public_test Data의 id는 중복되지 않습니다.)
 year_month - 고객이 문자를 전송 받은 년도와 월을 나타냅니다.
